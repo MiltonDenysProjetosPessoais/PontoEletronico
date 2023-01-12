@@ -21,6 +21,7 @@ public class PontoEletronicoSteps {
     @Then("eu preencho os campos de login {string} {string}")
     public void preencherLogin(String name, String password) {
         pages.PontoEletronicoPage.preencherLogin(name,password);
+        System.out.println("preencher campos");
     }
     @Then("clico em marcacao")
     public void clicarMarcacao() {
