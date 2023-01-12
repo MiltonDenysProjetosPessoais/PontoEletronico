@@ -1,7 +1,6 @@
 package pages;
 
 
-import io.cucumber.datatable.DataTable;
 import org.openqa.selenium.By;
 
 public class PontoEletronicoPage extends BasePage {
@@ -12,9 +11,9 @@ public class PontoEletronicoPage extends BasePage {
     public static void preencherLogin(String name, String password) {
 
         try {
-            preencher(By.cssSelector("#ext-152"),name);
+            preencher(By.cssSelector("#ext-138"),name);
             Thread.sleep(1000);
-            preencher(By.cssSelector("#ext-151"),password);
+            preencher(By.cssSelector("#ext-140"),password);
             Thread.sleep(1000);
 
         } catch (InterruptedException e) {

@@ -24,7 +24,7 @@ public class BasePage {
 	public static void acessaHomePage() {
 		// WebDriver driver;
 		System.setProperty("webdriver.chrome.driver",
-				"C:\\Users\\milto\\IdeaProjects\\PontoEletronico\\src\\main\\resources\\chromedriver\\chromedriver.exe");
+				"D:\\Projetos\\PontoEletronico\\src\\main\\resources\\chromedriver\\chromedriver.exe");
 		driver = new ChromeDriver();
 		driver.get(url);
 		driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);

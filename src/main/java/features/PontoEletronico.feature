@@ -8,5 +8,5 @@ Feature: Ponto Eletronico
     Given abro a pagina de de ponto eletronico
   And confirmar preferencias
   When eu preencho os campos de login "milton.silva" "R34r3YPqPRFJS5n"
-  And clico em marcacao
+#  And clico em marcacao
 #    Then finalizo a aplicacao
